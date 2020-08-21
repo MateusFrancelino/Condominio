@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sistema de Ocorrências</title>
+    </head>
+    <body>
+        <h2>Exibir</h2>
+        <form action='includes/exibir_ocorrencia.php' method="POST">
+            <label>Para exibir uma ocorrência digite o Id : </label>
+            <input type="number" id="id_ocorrencia" name="id_ocorrencia" required="true">
+            <button type="submit" name="submit">Exibir</button>
+            <br><br>
+        </form>
+        <button type="button" onclick="location.href='includes/exibir_todas_ocorrencias.php';">Exibir todas as ocorrências</button>
+        <button type="button" onclick="location.href='index.php';">Voltar</button>
+    </body>
+</html>

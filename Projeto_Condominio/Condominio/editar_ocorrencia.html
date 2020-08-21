@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Condominio Robertão</title>
+    </head>
+    <body>
+        <h1>Condominio</h1>
+    <h2>Editar ocorrencia</h2>
+        <form action="includes/editar_ocorrencia.php" method='POST'>
+            <hr>
+            <h3>Ocorrência a Ser Editada:</h3>
+            <label>Id Ocorrencia</label>
+            <input type="number" id="id_ocorrencia" name="id_ocorrencia" required="true">
+            <br><hr>
+            
+            <h3>Edições</h3>
+            <label>Id de morador</label>
+            <input type="number" id="id_morador" name="id_morador" required="true">
+            <br><br>
+            <label>Descrição</label>
+            <input type="text" id="descricao" name="descricao" required="true">
+            <br><br>
+            <button type="submit">Editar</button>
+        </form>
+        <button type="button" onclick="location.href='index.php'">Voltar</button>
+    </body>
+</html>
